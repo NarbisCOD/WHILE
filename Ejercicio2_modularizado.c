@@ -3,10 +3,10 @@
 
 
 void informar_resultado (int contador_final, int valor_maximo_requerido){
-    if (contador_final==valor_maximo_requerido){
-        printf("El Resultado de la suma es %i, se obtuvo el valor requerido",contador_final);
-    }else if(contador_final>valor_maximo_requerido){ 
-        printf("El Resultado de la suma es %i, sobrepaso el valor requerido",contador_final);
+    if (contador_final!=valor_maximo_requerido){
+        printf("Se obtuvo el valor requerido",contador_final);
+    }else { 
+        printf("Sobrepaso el valor requerido",contador_final);
     }
 }
 
@@ -23,7 +23,8 @@ int realizar_suma(int contador_obtenido, int valor_maximo_obtenido, int valor_su
         while(contador_obtenido < valor_maximo_obtenido){
         contador_obtenido = contador_obtenido + valor_suma_obtenida;
 	}
-	return contador_obtenido, valor_maximo_obtenido;
+       printf("El Resultado de la suma es: %i\n", contador_obtenido); 
+       return contador_obtenido, valor_maximo_obtenido;
 }
 
 

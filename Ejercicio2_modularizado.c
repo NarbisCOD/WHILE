@@ -11,7 +11,7 @@ void informar_resultado (int contador_final, int valor_maximo_requerido){
 }
 
 /*
- *Pre:"Todos los valores a evaluar deben ser mayores o iguales a cero
+ *Pre:Todos los valores a evaluar deben ser mayores o iguales a cero
 */
     
 int realizar_suma(int contador_obtenido, int valor_maximo_obtenido, int valor_suma_obtenida){

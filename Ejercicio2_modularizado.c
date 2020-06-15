@@ -3,7 +3,7 @@
 
 
 void informar_resultado (int contador_final, int valor_maximo_requerido){
-    if (contador_final!=valor_maximo_requerido){
+    if (contador_final==valor_maximo_requerido){
         printf("Se obtuvo el valor requerido",contador_final);
     }else { 
         printf("Sobrepaso el valor requerido",contador_final);

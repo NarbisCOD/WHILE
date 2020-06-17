@@ -15,7 +15,7 @@ void informar_resultado (int contador_final, int valor_maximo_requerido){
 */
     
 int realizar_suma(int contador_obtenido, int valor_maximo_obtenido, int valor_suma_obtenida){
-	    printf("Ingrese los valores de inicio y maximo para realizar la suma, segun se Indica:\n\n");
+	printf("Ingrese los valores de inicio y maximo para realizar la suma, segun se Indica:\n\n");
         printf("Sumar de a: ");
         scanf("%i", &valor_suma_obtenida);
         printf("hasta: ");
